@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/out/egSchema.rnc" type="application/relax-ng-compact-syntax"
+?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Egyptian Gazette</title>
+                <title level="m" type="sub">An encoded transcription</title>
+                <editor>Annie Palladino</editor>
+                <principal>Will Hanley</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date when="2020-01-29">January 29, 2020</date><gloss>2</gloss></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>FSU University Libraries</publisher>
+                <pubPlace>Tallahassee, FL</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Egyptian Gazette</title>
+                    <date when="1905-10-03">October 3, 1905</date>
+                    <extent><measure unit="pages" quantity="6">6</measure> pages</extent></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1"/>
+            <div type="page" n="1">
+                <head>THE EGYPTIAN GAZETTE</head>
+                <head type="sub">No. 7306] ALEXANDRIA, Thursday, October 3, 1905. [SIX PAGES P.T.
+                 </head>
+                <div type="advert">
+                    <!-- need help with making the table and finding the correct format--> 
+                    <head>Orient-Pacific Line of Royal Mail Steamers.</head>
+                    <p>REDUCED SUMMER FARES FROM MAY TO OCTOBER INCLUSIVE.</p>
+                    <p>OUTWARDS to AUSTRALIA.</p>
+                    <p>R.M.S. “Orotava" will leave Suez about October 18 | R.M.S "Ormuz" will leave
+                        Suez about October 31.</p>
+                    <p>HOMEWARDS to NAPLES MARSEILLES, GIBRALTAR, PLYMOUTH, LONDON, TILBURY</p>
+                    <p>R.M.S. "Oroya" will leave Port Said about Oct 8 | R.M.S. “Ortona" will leave
+                        Port Said about Oct  31</p>
+                    <table>
+                        <row>
+                            <cell>Port-Said to Marseilles</cell>
+                            <cell>1st Class</cell>
+                            <cell>£ 12.12</cell>
+                            <cell>2nd Class</cell>
+                            <cell>£ 9.9</cell>
+                            <cell>3rd Class</cell>
+                            <cell>£ 5.10</cell>
+                        </row>
+                        <row>
+                            <cell>Port-Said to Gibraltar</cell>
+                            <cell>1st Class</cell>
+                            <cell>£ 18.0</cell>
+                            <cell>2nd Class</cell>
+                            <cell>£ 10.0</cell>
+                            <cell>3rd Class</cell>
+                            <cell>£ 5.10</cell>
+                        </row>
+                        <row>
+                            <cell>Port-Said to Plymouth or Tilbury</cell>
+                            <cell>1st Class</cell>
+                            <cell>£ 16.16</cell>
+                            <cell>2nd Class</cell>
+                            <cell>£ 12.12</cell>
+                            <cell>3rd Class</cell>
+                            <cell>£ 8.16</cell>
+                        </row>                   
+                    </table>
+                    <p>Egyptian Government Officials allowed a rebate of 15% off the above
+                        fares.</p>
+                    <p>Return tickets no longer issued, but passengers paying full fare in one
+                        direction allowed abatement of 1/3 fare back if return voyage be within 4
+                        months of arrival, or abatement of 20 o/o if return voyage be made within 8
+                        months of arrival.</p>
+                    <p>Agents. Cairo:—Thos. Cook &amp; Son. Alexandria : —R. J. Moss &amp; Co.—For
+                        all information apply</p>
+                    <p>Wm. STAPLEDON &amp; Sons, PORT-SAID &amp; PORT-TEWFIK (Suez) 31-12-904</p>
+                </div>
+                <div type="advert">
+                    <!--advert complete-->
+                    <head>BIBBY LINE MAIL STEAMERS.</head>
+                    <p>OUTWARDS to COLOMBO, TUTICORIN, etc., and RANGOON. </p>
+                    <p>S.S. Warwlokshire, 7,160 tons, will  leave Suez about October 10th.</p>
+                    <p>HOMEWARDS to MARSEILLES and LONDON. Departures from Port Said.</p>
+                    <p>S.S. Derbyshire, 6,636 tons, will leave Port Said about October 14th.</p>
+                    <p>Special Reduced Fares During the Summer Season</p>
+                         <p>FARES from Port Said to Marseilles £12.0.0, London £17.0.0, Colombo £32.10.0,
+                        Rangoon £37.10.0.</p>
+                    <p>Fitted wtih Refrigerators, Electric light, Electric Fans, and all recent improvements.</p>
+                    <p>Agents Cairo: THOS. COOK &amp; SON. Suez &amp; Port Said : WM. STAPLEDON
+                        &amp; SONS, 31-12-905</p>
+                </div>
+                <div type="advert">
+                    <head>KHEDIVIAL MAIL LINE.</head>
+                    <!-- this text needs to be fixed. this is the only format--> 
+                    <p>
+                        <hi rend="bold">FAST BRITISH PASSENGER STEAMERS</hi>
+                    </p>
+                    <p>
+                        <hi rend="bold">GREECE - TURKEY LINE.</hi>
+                    </p>
+                    <p>Express Steamers leave Alexandria every Wednesday at 4 p.m. for PIRAEUS,
+                        SMYRNA, MITYLENE, and CONSTANTINOPLE, in connection with Orient Express
+                        train-de-luxe for Vienna, Paris, and London.</p>
+                    <p>
+                        <hi rend="bold">PALESTINE - SYRIA LINE.</hi>
+                    </p>
+                    <p>Fast steamers leave Alexandria every Saturday at 6 p.m., and Port Said every
+                        Sunday at 6 p.m., for JAFFA (for Jerusalem), CAIFFA (for Nazareth), BEYROUT
+                        (for Damascus), TRIPOLI, ALEXANDRETTA, MESSINA, continuing in alternate
+                        weeks to LARNACA and LIMASSOL (Cyprus).</p>
+                    <p>
+                        <hi rend="bold">RED SEA LINE.</hi>
+                    </p>
+                    <p>Steamers leave Suez fortnightly on Wednesday at 6 p.m. for JEDDAH, SUAKIN,
+                        MASSOWAH, HODBIDAH, and ADEN ; and in the intervening weeks for PORT SUDAN
+                        and SUAKIN direct. Calls will be made at TOR (for Mount Sinai) as
+                        required.</p>
+                    <p>N.B.—Deck chairs provided for the use of passengers, excellent cuisine and
+                        table wine free.</p>
+                    <p>Steamer plans may be seen and passages booked at the Company’s Agencies at
+                        Alexandria, Cairo, Port Said, and Suez, or at THOS. COOK &amp; SON or other
+                        Tourist Agency. 31-12-904</p>
+                </div>
+                <div type="advert">
+                    <!-- advert text needs to be added-->
+                    <head>Deutsche Levante-Linie.</head>
+                    <p>Mail and Passenger Steamships. Regular three-weekly Service from<lb/>
+                        HAMBURG, via ANTWERP &amp; MALTA, to ALEXANDRIA and vice-versa,
+                        admitting<lb/> goods from all chief German Railway Stations on direct Bill
+                        of Landing to<lb/> ALEXANDRIA and all chief ports of Egypt, Syria, etc., at
+                        favourable through<lb/> rates of DEUTSCHE<lb/> VERKEHR (traffic).</p>
+                    <p>EXPECTED AT ALEXANDRIA.</p>
+                    <p>S.S. Lesbos July 20 from Antwerp.</p>
+                    <p>S.S. Androos July 20 from Hamburg bound for Beyrout.</p>
+                    <p>S.S. Lemnos July 31 from Hamburg bound for Beyrout.</p>
+                    <p>For tariff and particulars apply to ADOLPHE STROSS, Alexandria, Agent.</p>
+                    <p>15-2-905</p>
+                </div> <div type="advert">
+                    <!--text accurate-->
+                    <head>The Moss S.S. Company, Ltd.</head>
+                    <p>For LIVERPOOL calling at MALTA (Messrs. JAMES MOSS &amp; Co. 31, James St,
+                        Liverpool, Managers.)</p>
+                    <table rows="3" cols="8">
+                        <row>
+                            <cell>*Amasis</cell>
+                            <cell>Tons. 4,600</cell>
+                            <cell>*Meeris</cell>
+                            <cell>Tons 7,500</cell>
+                            <cell>*Philae</cell>
+                            <cell>Tons 5,900</cell>
+                            <cell>Tabor</cell>
+                            <cell>Tons 3,700</cell>
+                        </row>
+                        <row>
+                            <cell>*Busiris</cell>
+                            <cell>Tons. 6,000</cell>
+                            <cell>*Nitocris</cell>
+                            <cell>Tons 5,500</cell>
+                            <cell>Rameses</cell>
+                            <cell>Tons 3,900</cell>
+                            <cell>No. 401</cell>
+                            <cell>(Building)</cell>
+                        </row>
+                        <row>
+                            <cell>Menes</cell>
+                            <cell>Tons. 3,950</cell>
+                            <cell>*Phares</cell>
+                            <cell>Tons 3,900</cell>
+                            <cell>Seti</cell>
+                            <cell>Tons 5,000</cell>
+                            <cell>No. 135</cell>
+                            <cell>(Building)</cell>
+                        </row>
+                    </table>
+                    <p>*Second class accommodation only, unless specially reserved.—Fares :
+                        Alexandria to Liverpool, 1st, £14 Single, £25 Return. 2nd, £9 Single, £15
+                        Return.—To Malta, 1st, £5 Single, £9 Return, 2nd, £3 Single, £5
+                        Return.—Return tickets available for six months.</p>
+                    <p>S.S. Seti now on the berth, will sail on or about Monday, July 17, to be
+                        followed by S.S. Menes.</p>
+                    <p>S.S Tabor for Havre via Malta to sail about Saturday l5th inst.</p>
+                    <p>Through freight rates on cotton, etc., to Lancashire inland towns, Boston,
+                        New York and other U.S.A. towns, obtained on application. Cargo taken by
+                        special agreement only.</p>
+                    <p>Passenger Tickets also issued inclusive of Railway fare through to and from
+                        Cairo. Particulars on application to</p>
+                    <p>R. J. MOSS &amp; Co., Alexandria, Agents. 26-12-905</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-phc01">
+                    <head>P. HENDERSON &amp; CO’s LINE.</head>
+                    <p>Steamers leave SUEZ and PORT SAID fortnightly for LONDON or LIVERPOOL direct.</p>
+                    <p>(Electric Light.) SALOON (Amidships) FARE £12. (Latest improvements.)</p>
+                    <p><name>S.S. RANGOON</name>
+                        <measure quantity="6000" unit="ton">6000</measure> Tons will leave PORT SAID
+                        about <date when="1905-07-23">July 23</date> for London.</p>
+                    <p><name>S.S. BURMA</name>
+                        <measure quantity="5600" unit="ton">5600</measure> Tons will leave PORT SAID
+                        about <date when="1905-08-06">August 6</date> for London.</p>
+                    <p><name>S.S. ARRACAN</name>
+                        <measure quantity="5800" unit="ton">5800</measure> Tons will leave PORT SAID
+                        about <date when="1905-08-20">August 20</date> for Liverpool</p>
+                    <p>Due in LONDON or LIVERPOOL 12 days thereafter.</p>
+                    <p>Apply WORMS &amp; Co., Port Said and Suez. THOS. COOK &amp; SON, (EGYPT) LD.,
+                        CAIRO ;</p>
+                    <p>G. J. GRACE &amp; CO., ALEXANDRIA.</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-sde01">
+                    <head>SUDAN DEVELOPMENT &amp; EXPLORATION COMPANY, LIMITED</head>
+                    <p>KHARTOUM: CAIRO Office, Sharia Kasr-el-Nil.</p>
+                    <p>TRANSPORT DEPARTMENT. Six days White Nile Tourist Trip dep. Khartoum Tuesdays.
+                        Steamer plans may be seen and passages booked at all Cairo Tourist Agents. -
+                        Special Steamers for private charter. - Trips arranged and transport of goods
+                        undertaken to all places on White and Blue Niles within navigation limits.</p>
+                    <p>ENGINEERING DEPARTMENT. Shipyard for construction of sternwheel steamers, barges,
+                        stream, motor launches, etc. Contractors for supply and erection of all classes
+                        of machinery, buildings, irrigation pumps, etc.</p>
+                    <p>SOLE AGENTS FOR Dudbridges Oil Engines from 1 to 35 B.H.P. as supplied to Sudan
+                        Government Seamless Steel Boat Co., Ltd., etc., etc. <measure type="indexNo">31-10-906</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-mic01">
+                    <head>MARINE INSURANCE COMPANY, LIMITED.</head>
+                    <p>Established 1836. Capital £1,000,000. Reserve Fund £650,000.</p>
+                    <p>THE IMPERIAL FIRE OFFICE united with THE ALLIANCE ASSURANCE, Co., Ltd.</p>
+                    <p>1, Old Broad Street, LONDON—Estabished 1806.—Total Funds exceed £10,000,000.</p>
+                    <p><measure type="indexNo">31-12-905.</measure> Policies issued at SUEZ by G. BEYTS &amp; Co., Agents.</p>
+                </div>
+                <!-- need the template for heway insurance-->
+                <div type="advert" xml:id="deg-ad-ghc01">
+                    <head>GELLATLY, HANKEY &amp; CO.</head>
+                    <p>SHIPOWNERS OF LONDON.</p>
+                    <p>Branches at Port Sudan, Suakin &amp; Jeddah</p>
+                    <p>Merchandise, furniture, baggage and personal effects forwarded, and insurances
+                        effected to all parts of the world.</p>
+                    <p><measure type="indexNo">27376-28-2-907</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-tcs05">
+                    <head>THOS. COOK &amp; SON (Egypt) Limited.</head>
+                    <p>Engineers, Cairo.</p>
+                    <p>MECHANICAL AND ELECTRICAL ENGINEERS, ALSO SHIPBUILDERS, &amp;C., &amp;C. </p>
+                    <p>All classes of engineering work and supply of stores undertaken. Pontoon Dock for
+                        raising vessels of the largest size.</p>
+                    <p>BOULAC ENGINE WORKS</p>
+                    <p>Branches at Sharia Bab-El-Hadeed (CAIRO), ALEXANDRIA &amp; KHARTOUM.</p>
+                    <table rows="5" cols="2">
+                        <head>Sole agents in Egypt for</head>
+                        <row>
+                            <cell>
+                                <p>Richard Garrett &amp; Sons, Ltd. </p>
+                                <p>Portable and semi-portable steam engines, Road rollers, threshing and
+                                    straw-chopping machines.</p>
+                            </cell>
+                            <cell>
+                                <p>Tangyes, Ltd. (Sole Vendors.)</p>
+                                <p>Steam, oil, petrol and alcohol engines and gas producer plants. Pumps
+                                    and machinery of all description.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p>Shand, Mason &amp; Co. </p>
+                                <p>Patent Steam and Manual Fire Engines.</p>
+                            </cell>
+                            <cell>
+                                <p>Crompton &amp; Co., Ltd.</p>
+                                <p> Dynamos, Motors and Electric Machinery of all description.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p>Nobel's Explosives Co., Ltd.</p>
+                                <p>Gelignite and high explosives. ‘‘Sporting Ballistite” and “Empire"
+                                    Cartridges.</p>
+                            </cell>
+                            <cell rows="2">
+                                <p>Messrs. Chubb &amp; Son's Lock &amp; Safe Company Limited. </p>
+                                <p>Makers to the Bank of England. Chubb's Steel Safes of all sizes on
+                                    hand. Building of strong rooms undertaken.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <p>Geo. Angus &amp; Co., Ltd.</p>
+                                <p>Machine belting of every description, leather, rubber, cotton and
+                                    Balata.</p>
+                            </cell>
+                        </row>
+                    </table>
+                    <p>Specialities: TANGYES’ OIL ENGINES, as supplied to the Government
+                        Administrations, and suitable for driving, pumping, electrical installations,
+                        flour mills, workshops, etc.</p>
+                    <p>Tangyes' Marine Type Petrol Launch Enginee which has won four first prizes open
+                        to the whole world – 1903.</p>
+                    <p>Tangyes' Alcohol Englines up to 27 BHP.</p>
+                    <p>Tangyes' Suction Producer Plants for Driving Gas Engines.</p>
+                    <p>Telegraphic Address :"ENGINEER, CAIRO" and “ENGINEER, ALEXANDRIA."</p>
+                    <p>Works Office in town, Sharia Bab-El-Hadeed (Cairo).</p>
+                    <p>Alexandria Office and Stores, Abu Dirdar Street, No. 12. <measure type="indexNo"
+                        >31.9.905</measure></p>
+                </div>
+        <cb/> 
+                <div type="advert" xml:id="deg-ad-bis02">
+                    <head>British India S. N. Company, Limited.</head>
+                    <p>Fortnightly Service in connection with the Co's Indian Mail Lines.-- Calling at
+                        ADEN, COLOMBO, MADRAS, and CALCUTTA Out, and MARSEILLES (GENOA and PLYMOUTH
+                        optional) Home. Sailings from Suez.</p>
+                    <p>OUTWARD.—<name>S.S. Jelunga</name> ... <date when="1906-10-12">October 12</date>
+                        | HOMEWARD.—<name>S.S. Gordon Castle</name> ... <date when="1906-10-05">Oct.
+                            5</date></p>
+                    <p>EAST AFRICAN LINE OF STEAMERS.</p>
+                    <p>Calling at Aden, Mombasa, Zanzibar and Beira. Monthly service.</p>
+                    <p>The <name>S.S. Warora</name> will sail from Suez on about <date when="1906-10-12"
+                        >the 12th October</date>.</p>
+                    <table rows="2" cols="9">
+                        <row>
+                            <cell rows="3">First Class Fares from Suez to</cell>
+                            <cell>Aden</cell>
+                            <cell>£11. 8</cell>
+                            <cell>Colombo</cell>
+                            <cell>£25.15</cell>
+                            <cell>Calcutta</cell>
+                            <cell>£31. 0</cell>
+                            <cell>Marseilles</cell>
+                            <cell>£15.12</cell>
+                        </row>
+                        <row>
+                            <cell rows="2">Bombay</cell>
+                            <cell rows="2">£31.10</cell>
+                            <cell>Madras</cell>
+                            <cell>£20.11</cell>
+                            <cell>Genoa</cell>
+                            <cell>£13.10</cell>
+                            <cell rows="2">London</cell>
+                            <cell rows="2">£19. 0</cell>
+                        </row>
+                        <row>
+                            <cell>Mombasa</cell>
+                            <cell>£26.10</cell>
+                            <cell>Zanzibar</cell>
+                            <cell>£30. 0</cell>
+                        </row>
+                    </table>
+                    <p>From Port-Said £2 less Homeward, and £2 more Outward. Second class, two thirds of
+                        1st Class Fares.</p>
+                    <p>PORT SAID Agents: Worms &amp; Co. and Willi &amp; Co., Ltd. -- CAIRO &amp;
+                        ALEXANDRIA: --Thos. Cook &amp; Son, Ltd., and the Anglo-American Hotel &amp;
+                        Steamer Co. For particulars apply G. BEYTS &amp; Co., Suez. <measure
+                            type="indexNo">31-12-906</measure></p>
+                </div>      <div type="advert" xml:id="deg-ad-all01">
+                    <head>ANCHOR LINE, LIMITED.</head>
+                    <p>(HENDERSON BROTHERS,) LONDON, LIVERPOOL AND GLASGOW.</p>
+                    <p>Booking Passengers and Cargo through to Ports in India, Europe &amp; America</p>
+                    <p>First class passengers steamers. Sailing fortnightly from Suez.</p>
+                    <table rows="2" cols="6">
+                        <row>
+                            <cell>For MARSEILLES &amp; LIVERPOOL</cell>
+                            <cell><name>S.S. “Bohemia”</name></cell>
+                            <cell><date when="1905-07-26">July 26</date></cell>
+                            <cell>For CALCUTTA</cell>
+                            <cell><name>S.S. "Assyria"</name></cell>
+                            <cell><date when="1905-08-03">August 3</date></cell>
+                        </row>
+                        <row>
+                            <cell>For LONDON</cell>
+                            <cell><name>S.S. “Persia"</name></cell>
+                            <cell><date when="1905-07-28">July 28</date></cell>
+                            <cell>For BOMBAY</cell>
+                            <cell><name>S.S. "Australia"</name></cell>
+                            <cell><date when="1905-07-23">July 23</date></cell>
+                        </row>
+                    </table>
+                    <p>Saloon Fares: from Port-Said, to Gibraltar £9; Marseilles £9: Liverpool (all sea
+                        route) £15; London (all sea route) £ 12 London via Marseilles £15.5.0.
+                        Passengers embarking at Suez £2 more, 10 % reduction for officers of army of
+                        Occupation and Government employés. Through tickets issued to New-York (via
+                        Glasgow). Fares on application.</p>
+                    <p> Agents in Cairo, Messrs. Thos. Cook &amp; Son. Port-Said, Messrs. Cory Brothers
+                        &amp; Co., Ltd.</p>
+                    <p>For further particulars of Freight or Passage apply to G. BEYTS &amp; Co., Suez.
+                        <measure type="indexNo">31-12-905</measure></p>
+                    <!-- looking for anglo egyptian bank after this one.-->
+                </div>
+                <div type="advert" xml:id="deg-ad-boe01">
+                    <head>BANK OF EGYPT, LIMITED.</head>
+                    <p>London, Alexandria, Cairo, Port Said, Khartoum.</p>
+                    <p>Subscribed Capital £1,000,000. Paid Up Capital £500,000.—Reserve £480,000. </p>
+                    <p>The Bank undertakes every kind of Banking business.</p>
+                    <p>Fixed deposits accepted at the Cairo Branch on the following terms : 3 months, 2
+                        %. 6 months, 2 1/2 %. 12 months, 3 % </p>
+                </div>
+                <div type="advert" xml:id="deg-ad-cnc01" xml:lang="fr">
+                    <head>COMPTOIR FINANCIER &amp; COMMERCIAL D’EGYPTE</head>
+                    <p>Siège Social : Alexandrie. - Succursale : Le Caire.</p>
+                    <p>Capital Entièrement Verse £400,000. — Reserve environ £50,000.</p>
+                    <p> Administrateur-Délégué : M. ALFRED CAMPOS. Directeur Général : M. BENVENUTO
+                        CAMPOS.</p>
+                    <p>Ordres de Bourse. Reports sur valeurs égyptiennes, Avances sur marchandises et
+                        sur titres, Emission Lettres de Crédit, traites, chèques.</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-crl02" xml:lang="fr">
+                    <head>CREDIT LYONNAIS</head>
+                    <p>CAPITAL FRANCS 250,000,000 ENTIEREMENT VERSES</p>
+                    <p>Agences d’Egypte : ALEXANDRIE, LE CAIRE, PORT-SAID.</p>
+                    <p>Le Crédit Lyonnais fait toutes opérations de banque, telles que : Avances sur
+                        titres fixes et en compte courant, Avances sur marchandises et consignations,
+                        Emission de traités et chèques, Emission de lettres de Crédit, Paiements par
+                        télégraphe sur les principales villes de la France èt de l’étranger, Garde de
+                        titres Recouvrement d’effets sur l’Egypte et l'étranger ; le Crédit Lyonnais
+                        reçoit des fonds en compte de depôt et délivre des bons à échéance fixe au taux
+                        de 3 o/o pour 1 an et au-delà. <measure type="indexNo">31-12-906</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-iob01">
+                    <head>IMPERIAL OTTOMAN BANK.</head>
+                    <p>Established 1863.</p>
+                    <p>CONSTANTINOPLE LONDON, PARIS, ALEXANDRIA CAIRO, PORT SAID CYPRUS and in all the
+                        principal towns in TURKEY. </p>
+                    <p>ALEXANDRIA, 2 Mohamed Aly Square.— CAIRO, 19, Sharia el Manakh.</p>
+                    <p>CAPITAL............. £ 10,000,000 Sterling. </p>
+                    <p>The Bank undertakes every description of Banking business on favourable terms.
+                        <measure type="indexNo">18-4-907</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-bal01">
+                    <head>BANK OF ATHENS, LIMITED.</head>
+                    <p><hi rend="bold">Capital 20,000,000 (Fully paid up).</hi></p>
+                    <p>BRANCHES: London 55-56 Bishops gate-street Within-Alexandria, Cairo,
+                        Constantinople, Smyrna, At Candia and throughout Greece.</p>
+                    <p>The Bank undertakes all banking business in Egypt, Greece,<lb/> etc.
+                        Interest, on cash deposits: 3 0/0 per ann. at sight; 3 1/2 0/0<lb/> per
+                        ann. for 6 months ; 4 0/0 per ann. for 12 months ; 5 0/0 per<lb/> ann.
+                        for 3 years and over. Savings Bank Branch receives de-<lb/>posits at 3
+                        1/2 0/0 per ann., from P.T. 30 to P.T. 10,000. <measure type="indexNo">23538-19-1.905</measure></p>
+                </div>
+                <div type="advert" xml:lang="fr" xml:id="deg-ad-nbe01">
+                    <head>NATIONAL BANK OF EGYPT.</head>
+                    <p>CAPITAL: L. 2,500,000. RESERVE (ENVIRON) : L. 862,000.</p>
+                    <p>Gouverneur: Sir ELWIN PALMER, K.C.B., K.C.M.G.</p>
+                    <p>Siège Social au Caire, Succursale à Alexandria, Agence à Assiout, Assuoan, Benha,
+                        Beni-Suef, Chibin el Kom, Damanhour, Fayoum, Khartoum, Kéneh, Mansourah. Minieh,
+                        Port-Said, Suakin, Sohag, Tantah, Zagazig, Mouski (Caire) et Londres (4 et 5,
+                        King William Street).</p>
+                    <p>La National Bank of Egypt reçoit des dépots à termes fixes, fait des avances et
+                        ouvre des comptes courants sur titres, valeurs et marchandises. Elle s’occupe de
+                        l’achat et de la vente d'effets sur l’Etranger, de l'escompte, ainsi que de
+                        toutes opérations de Banque. <measure type="indexNo">31-12-904</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-ddg02">
+                    <head>Direction der Disconto-Gesellschaft</head>
+                    <p>Berlin - Bremen - Frankfurt a. M. - London.</p>
+                    <p>Capital (fully paid-up) M 170,000,000 – Reserve Fund ... M 57,600,000.</p>
+                    <p>Represented at Hamburg by the Norddeutsche Bank in Hamburg.</p>
+                    <p><measure type="indexNo">29756</measure> The bank transacts general banking
+                        business of every description. <measure type="indexNo"
+                            >11-3-1908</measure></p>
+                </div>
+                
+                <div type="advert" xml:id="deg-ad-deb01">
+                    <head>DEUTSCHE BANK,</head>
+                    <p>BERLIN, W.</p>
+                    <p>CAPITAL...... . M200,000,000 — RESERVE..M97,000,000</p>
+                    <p>Dividends paid during last 10 years, (1896-1905,) 10, 10, 10 1/2, 11, 11, 11, 11,
+                        11, 12, 12 per cent</p>
+                    <p>BRANCHES—Bremen, Dresden, Frankfort-on-M., Hamburg, Leipzig, Munioh, Nuremberg,
+                        Augsburg, Wiesbaden.</p>
+                    <p>Deutsche Bank (Berlin) London Agency : 4 George Yard, Lombard Street, London,
+                        E.C.</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-cfe01" xml:lang="fr">
+                    <head>CREDIT FRANCO-EGYPTIEN</head>
+                    <p> Capital 12,500,000 Francs entièrement verses. — Agence d’Alexandrie, 14, Rue
+                        Stamboul.</p>
+                    <p>LE CREDIT FRANCO-EGYPTIEN fait toutes opérations de Banque, notamment: Escompte
+                        d'effets sur l'Egypte et l'etranger. Avance sur titres.—Garde de
+                        titres.—Depots de fonds a vue et à échéance fixe avec intérêts aux taux
+                        suivants: 2 1/2 0/0 pour dépôts de 6 mois, 3 0/0 pour dépôts d’un an, 3 1/2 0/0 pour
+                        dépôts au délà d’un an. — LE CREDIT FRANCO-EGYPTIEN reçoit des Marchandises en
+                        consignation pour la vente et fait des Avances sur Cotons, Grains et autres
+                        marchandises. — <measure type="indexNo">28337-10-8-907</measure></p>
+                </div>
+                <div type="advert"  xml:id="deg-ad-ibl01">
+                    <head>IONIAN BANK, LIMITED.</head>
+                    <p>ALEXANDRIA BRANCH, RUE ADIB. (ESTABLISHED 1839)</p>
+                    <p>Capital fully paid up £315.510.-Reserve Liability £315.510,-Undivided Profits £83.914</p>
+                    <p>HEAD OFFICE: LONDON.-HEAD OFFICE for GREECE: ATHENS.-BRANCHES FOR GREECE: CORFU,
+                        PATRAS, CEPHALONIA, ZANTE, PIREUS, TRIPOLITZA.-AGENCY: NAUPLIA.</p>
+                    <p>The IONIAN BANK LTD. transacts all ordinary banking business such as:</p>
+                    <p>Advances on securities, merchandise, warrants, etc. Buying and selling of
+                        exchange on all principal centres abroad. Issue of drafts, letters of credits
+                        and telegraphic payments. Purchase and Sale of Securities. Current accounts are
+                        opened and: deposits at sight and at fixed dates are received on the following
+                        terms: 3 0/0 for deposits at 6 months notice; 4 0/0 for deposits at 1 years
+                        notice.</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-sio01">
+                    <head>Sun Insurance Office,</head>
+                    <p>LONDON. Founded 1710.-Total sum insured in 1902 £487,600,000.</p>
+                    <p>Agents : LEON HELLER, Cairo, and BEHREND &amp; Co., Alexandria. <measure type="indexNo">16-1-906</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-pss01">
+                    <head>PORT SAID-SAVOY HOTEL.</head>
+                    <p>NEW FIRST-CLASS HOTEL, OVERLOOKING THE HARBOUR &amp; OPPOSITE CUSTOM HOUSE</p>
+                    <p>Open all the year round. — Well-appointed Bar.</p>
+                    <p>MODERATE CHARGES. SPECIAL TERMS FOR RESIDENTS <measure type="indexNo">1190A2-5</measure></p>
+                </div>
+                
+                <div type="advert" xml:id="deg-ad-aan03">
+                    <head>Hamburg &amp; Anglo-American Nile Co.</head>
+                    <p>Weekly departure during Winter Season by the<lb/> Luxurious First Class Tourist
+                        Steamers VICTORIA, PURITAN &amp; MAYFLOWER.<lb/> Regular weekly Departures to
+                        the SECOND CATARACT by the S.S. INDIANA.<lb/> THROUGH BOOKINGS TO KHARTOUM,
+                        GONDOKORO AND THE WHITE NILE.<lb/> Steamers and Dahabeahs for private charter.
+                        Steam Tugs and Steam Launches for hire.<lb/> FREIGHT SERVICE BY STEAM BARGES
+                        BETWEEN CAIRO AND ALEXANDRIA.<lb/> Working in conjunction and under special
+                        arrangement with the<lb/> “Upper Egypt Hotels Company."</p>
+                    <p>For details and illustrated programmes apply to "THE HAMBURG and
+                        ANGLO-AMERICAN<lb/> NILE COMPANY."</p>
+                    <p> OFFICES IN CAIRO: Sharia Boulac, "Grand Continental Hotel Buildings.” <measure
+                        type="indexNo">31-3-07</measure></p>
+                    <p>Hamburg-Amerika Linie.</p>
+                    <p>Return to Egypt<lb/> by the new S.S. Oceana of 9000 Tons, 350 berths including 90
+                        single cabins, greatest comfort, best cuisine.</p>
+                    <p>FARES: Genoa to Alexandria from £14. Naples to Alexandria from £10.</p>
+                    <table>
+                        <row>
+                            <cell>Leave Genoa</cell>
+                            <cell><date when="1906-10-23">October 23rd</date> p.m.</cell>
+                            <cell>arr. Alexandria</cell>
+                            <cell><date when="1906-10-27">October 27</date> a.m.</cell>
+                        </row>
+                        <row>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-11-06">November 6th</date> ,,</cell>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-11-10">November 10</date> ,,</cell>
+                        </row>
+                        <row>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-11-20">November 20th</date> ,,</cell>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-11-24">November 24</date> ,,</cell>
+                        </row>
+                        <row>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-12-04">December 4th</date> ,,</cell>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-12-08">December 8</date> ,,</cell>
+                        </row>
+                        <row>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-12-18">December 18th</date> ,,</cell>
+                            <cell>,, ,,</cell>
+                            <cell><date when="1906-12-22">December 22</date> ,,</cell>
+                        </row>
+                    </table>
+                    <p><measure type="indexNo">31-10-906</measure></p>
+                    <p>From January 2nd Weekly service from Naples to Alexandria EVERY WEDNESDAY.</p>
+                    <p>Apply to the Co.'s Booking Offices: Paris, rue Scribe. London, Cockspur Street.
+                        Berlin, Unter den Linden <lb/>Cairo, Continental Hotel. Alexandria, G. J. Grace
+                        &amp; Co. Chief Office: Hamburg ( Alsterdamm</p>
+                </div>
+                <div type="advert" xml:id="deg-ad-nll02">
+                    <head>NORDDEUTSCHER LLOYD.</head>
+                    <p>Regular Service from ALEXANDRIA (Passenger and Freight) to NAPLES-MARSEILLES.</p>
+                    <p><name>SCHLESWIG</name> will leave ALEXANDRIA at 4 p.m. July 26, August 30, September 20, etc.</p>
+                    <p>The following steamers are intended to leave PORT-SAID:</p>
+                    <table rows="14" cols="3">
+                        <row role="label">
+                            <cell cols="6">HOMEWARD : for Bremen Hamburg via Naples, Genoa, (Gibraltar),
+                                Southampton, Antwerp.</cell>
+                        </row>
+                        <row>
+                            <cell><name>Zieten</name></cell>
+                            <cell><measure quantity="9043" unit="ton">9043</measure> Tons</cell>
+                            <cell>about <date when="1905-07-14">14 July</date></cell>
+                            <cell><name>Gneisenau</name></cell>
+                            <cell><measure quantity="8881" unit="ton">8881</measure> Tons</cell>
+                            <cell>about <date when="1905-08-14">14 August</date></cell>
+                            
+                        </row>
+                        <row>
+                            <cell><name>Gera</name></cell>
+                            <cell><measure quantity="5005" unit="ton">5005</measure> Tons</cell>
+                            <cell>about <date when="1905-07-31">31 July</date></cell>
+                            <cell><name>Pr. Regt. Luitpold</name></cell>
+                            <cell><measure quantity="6288" unit="ton">6288</measure> Tons</cell>
+                            <cell>about <date when="1905-08-28">28 August</date></cell>
+                            
+                        </row>
+                        <row>
+                            <cell><name>Sachsen</name></cell>
+                            <cell><measure quantity="5026" unit="ton">5026</measure> Tons</cell>
+                            <cell>about <date when="1905-07-31">31 July</date></cell>
+                            <cell></cell><cell></cell><cell></cell>
+                        </row>
+                        <row role="label">
+                            <cell cols="3">OUTWARD: for CHINA and JAPAN via SUEZ, ADEN, COLOMBO, PENANG,
+                                SINGAPORE.</cell><cell cols="3">For AUSTRALIA via SUEZ, ADEN, COLOMBO.</cell>
+                        </row>
+                        <row>
+                            <cell><name>Prinz E. Friedrich</name></cell>
+                            <cell><measure unit="ton" quantity="8965">8965</measure> Tons</cell>
+                            <cell>about <date when="1905-07-10">10 July</date></cell><cell><name>Seydlitz</name></cell>
+                            <cell><measure unit="ton" quantity="7943">7943</measure> Tons</cell>
+                            <cell>about <date when="1905-07-30">30 July</date></cell>
+                        </row>
+                        <row>
+                            <cell><name>Preussen</name></cell>
+                            <cell><measure unit="ton" quantity="5295">5295</measure> Tons</cell>
+                            <cell>about <date when="1905-07-24">24 July</date></cell><cell><name>Zieten</name></cell>
+                            <cell><measure unit="ton" quantity="8043">8043</measure> Tons</cell>
+                            <cell>about <date when="1905-08-27">27 August</date></cell>
+                        </row>
+                        <row>
+                            <cell><name>Roon</name></cell>
+                            <cell><measure unit="ton" quantity="8022">8022</measure> Tons</cell>
+                            <cell>about <date when="1905-08-07">7 August</date></cell><cell><name>Barbarossa</name></cell>
+                            <cell><measure unit="ton" quantity="10915">10915</measure> Tons</cell>
+                            <cell>about <date when="1905-09-24">24 Sept</date>.</cell>
+                        </row>
+                    </table>
+                    <p>FOR FURTHER PARTICULARS APPLY TO THE AGENTS OF THE</p>
+                    <p>NORDDEUTSCHER LLOYD at Cairo, Alexandria, Port-Said and Suez.</p>
+                    <p>OTTO STERZING, Agent In Cairo, Opera Square.</p>
+                    <p>C. H. SCHOELLER, Agent In Alexandria, Cleopatra Lane.</p>
+                    <p>Messrs. THOS. COOK &amp; SON (Egypt) LTD., and CARL STANGENS REISEBUREAN are
+                        anthorised to sell tickets in CAIRO and ALEXANDRIA, <measure type="indexNo">31-8-905</measure></p>
+                </div>
+                <div type="advert">
+                    <head>NORDDEUTSCHER LLOYD.</head>
+                    <p>Regular Service from ALEXANDRIA (Passenger and Freight) to NAPLES-MARSEILLES.</p>
+                    <p><name>SCHLESWIG</name> will leave ALEXANDRIA at 4 p.m. July 26, August 30, September 20, etc.</p>
+                    <p>The following steamers are intended to leave PORT-SAID:</p>
+                    <table rows="14" cols="3">
+                        <row role="label">
+                            <cell cols="6">HOMEWARD : for Bremen Hamburg via Naples, Genoa, (Gibraltar),
+                                Southampton, Antwerp.</cell>
+                        </row>
+                        <row>
+                            <cell><name>Zieten</name></cell>
+                            <cell><measure quantity="9043" unit="ton">9043</measure> Tons</cell>
+                            <cell>about <date when="1905-07-14">14 July</date></cell>
+                            <cell><name>Gneisenau</name></cell>
+                            <cell><measure quantity="8881" unit="ton">8881</measure> Tons</cell>
+                            <cell>about <date when="1905-08-14">14 August</date></cell>
+                            
+                        </row>
+                        <row>
+                            <cell><name>Gera</name></cell>
+                            <cell><measure quantity="5005" unit="ton">5005</measure> Tons</cell>
+                            <cell>about <date when="1905-07-31">31 July</date></cell>
+                            <cell><name>Pr. Regt. Luitpold</name></cell>
+                            <cell><measure quantity="6288" unit="ton">6288</measure> Tons</cell>
+                            <cell>about <date when="1905-08-28">28 August</date></cell>
+                            
+                        </row>
+                        <row>
+                            <cell><name>Sachsen</name></cell>
+                            <cell><measure quantity="5026" unit="ton">5026</measure> Tons</cell>
+                            <cell>about <date when="1905-07-31">31 July</date></cell>
+                            <cell></cell><cell></cell><cell></cell>
+                        </row>
+                        <row role="label">
+                            <cell cols="3">OUTWARD: for CHINA and JAPAN via SUEZ, ADEN, COLOMBO, PENANG,
+                                SINGAPORE.</cell><cell cols="3">For AUSTRALIA via SUEZ, ADEN, COLOMBO.</cell>
+                        </row>
+                        <row>
+                            <cell><name>Prinz E. Friedrich</name></cell>
+                            <cell><measure unit="ton" quantity="8965">8965</measure> Tons</cell>
+                            <cell>about <date when="1905-07-10">10 July</date></cell><cell><name>Seydlitz</name></cell>
+                            <cell><measure unit="ton" quantity="7943">7943</measure> Tons</cell>
+                            <cell>about <date when="1905-07-30">30 July</date></cell>
+                        </row>
+                        <row>
+                            <cell><name>Preussen</name></cell>
+                            <cell><measure unit="ton" quantity="5295">5295</measure> Tons</cell>
+                            <cell>about <date when="1905-07-24">24 July</date></cell><cell><name>Zieten</name></cell>
+                            <cell><measure unit="ton" quantity="8043">8043</measure> Tons</cell>
+                            <cell>about <date when="1905-08-27">27 August</date></cell>
+                        </row>
+                        <row>
+                            <cell><name>Roon</name></cell>
+                            <cell><measure unit="ton" quantity="8022">8022</measure> Tons</cell>
+                            <cell>about <date when="1905-08-07">7 August</date></cell><cell><name>Barbarossa</name></cell>
+                            <cell><measure unit="ton" quantity="10915">10915</measure> Tons</cell>
+                            <cell>about <date when="1905-09-24">24 Sept</date>.</cell>
+                        </row>
+                    </table>
+                    <p>FOR FURTHER PARTICULARS APPLY TO THE AGENTS OF THE</p>
+                    <p>NORDDEUTSCHER LLOYD at Cairo, Alexandria, Port-Said and Suez.</p>
+                    <p>OTTO STERZING, Agent In Cairo, Opera Square.</p>
+                    <p>C. H. SCHOELLER, Agent In Alexandria, Cleopatra Lane.</p>
+                    <p>Messrs. THOS. COOK &amp; SON (Egypt) LTD., and CARL STANGENS REISEBUREAN are
+                        anthorised to sell tickets in CAIRO and ALEXANDRIA, <measure type="indexNo">31-8-905</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-als01">
+                    <head>Austrian Lloyd’s Steam Navigation</head>
+                    <p>Alexandria-Brindisi-Venice-Trieste.</p>
+                    <p>Weekly Express Mail Service. Steamers leave Alexandria every Saturday at 4 p.m.
+                        arrive at Brindisi, Tuesday a.m. in time for express to Paris, London, Naples,
+                        Rome. Arrival Trieste Wednesday noon connecting with Vienna Express
+                        (Trieste-Ostende through carriage) and expresses to Italy and Germany.</p>
+                    <table rows="3" cols="8">
+                        <row>
+                            <cell><date when="1905-07-08">July 8</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Semiramis"</name></cell>
+                            <cell><persName>Capt. Martinolich</persName></cell>
+                            <cell><date when="1905-07-29">July 29</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Imperator"</name></cell>
+                            <cell><persName>Capt. Mosca</persName></cell>
+                        </row>
+                        <row>
+                            <cell><date when="1905-07-15">July 15</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Bohemia"</name></cell>
+                            <cell><persName>Capt. Dabcevich</persName></cell>
+                            <cell><date when="1905-08-05">August 5</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S.S. "Imperatrix"</name></cell>
+                            <cell><persName>Capt. Ghezzo</persName></cell>
+                        </row>
+                        <row>
+                            <cell><date when="1905-07-22">July 22</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Cleopatra"</name></cell>
+                            <cell><persName>Capt. Ivellich</persName></cell>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p>Fortnightly Service: Alexandria-Brindisi-Venice-Trieste</p>
+                    <table rows="1" cols="8">
+                        <row>
+                            <cell><date when="1905-06-21">June 21</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Thalia"</name></cell>
+                            <cell><persName>Capt. Ivaneich</persName></cell>
+                            <cell><date when="1905-07-05">July 5</date></cell>
+                            <cell>4 p.m.</cell>
+                            <cell><name>S. S. "Maria Teresa"</name></cell>
+                            <cell><persName>Capt. Knezevich</persName></cell>
+                        </row>
+                    </table>
+                    <p>(Departures from Suez) To Aden, Bombay, Colombo, Penang, Singapore, Hong-Kong,
+                        Shanghai, Yokohama, Kobé about <date when="1905-07-05">July 5</date> and <date when="1905-08-04">August 4</date>. To Aden, Karachi, and Bombay
+                        accelerated service about <date when="1905-08-18">August 18</date>. To Aden, Karachi, Bombay, Colombo, Madras,
+                        Rangoon, and Calcutta about <date when="1905-07-20">July 20</date>.</p>
+                    <p>East African Line.</p>
+                    <p>To Aden, Mombassa, Zanzibar, Beira, Delagoa Bay, Durban, about <date
+                        when="1905-07-04">July 4</date> and <date when="1905-08-03">August 3</date>.</p>
+                    <p>Syrian-Cyprus-Caramanian Line.</p>
+                    <p>Steamers leaves Alexandria on or about <date when="1905-07-03">July 3</date>,
+                        <date when="1905-07-17">17</date> and <date when="1905-07-31">31</date>.</p>
+                    <p>For information apply to the Agents, Alexandria, Port Said and Suez, Thos. Cook
+                        &amp; Son, Ld., Leon Heller, Cairo Agent, 4, Sharia Maghraby, (Telephone 192),
+                        Cairo; F. Tedeschi, Helouan.</p>
+                    <p>Special passage rates granted to Egyptian Government officials, members of the
+                        Army of Occupation and their families.</p>
+                    <p><measure type="indexNo">31-12-905</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-gac01">
+                    <head>GUARDIAN ASSURANCE COMPANY, LIMITED,</head>
+                    <p>OF LONDON</p>
+                    <p>Established 1821.</p>
+                    <p>CAPITAL PAID UP AND INVERTED ONE MILLION STERLING.</p>
+                    <p>Annual Income . . £895,000.</p>
+                    <p>Total Funds . . £5,200,000.</p>
+                    <p>Agents far Egypt and the Sudan - HEWAT &amp; Co., Alexandria.</p>
+                    <p><measure type="indexNo">24336--17-6-905</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-cgr01">
+                    <head>Cyprus Government Railway.</head>
+                    <p>The Limassol S.S. Co. steamers with good passenger accommodation run between
+                        Cyprus &amp; Egypt as follows:— </p>
+                    <p>
+                        <table rows="6" cols="9">
+                            <row>
+                                <cell>Leave</cell>
+                                <cell>Port Said</cell>
+                                <cell>Wed. </cell>
+                                <cell><date when="1907-03-27">27th March</date></cell>
+                                <cell>10 a.m.</cell>
+                                <cell>Arrive</cell>
+                                <cell>Famagusta</cell>
+                                <cell><date when="1907-03-28">28th March</date></cell>
+                                <cell>2 p.m.</cell>
+                            </row>
+                            <row>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-10">10th April</date></cell>
+                                <cell>10 a.m.</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-11">11th April</date></cell>
+                                <cell>2 p.m.</cell>
+                            </row>
+                            <row>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-24">24th ,,</date></cell>
+                                <cell>10 a.m.</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-25">25th ,,</date></cell>
+                                <cell>2 p.m.</cell>
+                            </row>
+                            <row>
+                                <cell>,,</cell>
+                                <cell>Famagusta</cell>
+                                <cell>Sat.</cell>
+                                <cell><date when="1907-03-23">23rd ,,</date></cell>
+                                <cell>3 a.m.</cell>
+                                <cell>,,</cell>
+                                <cell>Port Said</cell>
+                                <cell><date when="1907-03-24">24th March</date></cell>
+                                <cell>7 a.m.</cell>
+                            </row>
+                            <row>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-06">6th April</date></cell>
+                                <cell>3 a.m.</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-07">7th April</date></cell>
+                                <cell>7 a.m.</cell>
+                            </row>
+                            <row>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-20">20th ,,</date></cell>
+                                <cell>3 a.m.</cell>
+                                <cell>,,</cell>
+                                <cell>,,</cell>
+                                <cell><date when="1907-04-21">21st ,,</date></cell>
+                                <cell>7 a.m.</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>Trains run alongside the steamers on the quay, and passengers can be conveyed to
+                        Famagusta, Nicosia, Morphou and intermediate stations. Good hotel accommodation
+                        for tourists is provided at Famagusta, at the Savoy Hotel (Mr. Najem Houry
+                        proprietor). Olympus Hotel, Mount Troodos, 6000 ft. above the sea. Magnificent
+                        Scenery. Perfect climate. Season May to end of October. For information apply to
+                        Mr. Najem Houry, Managing Director of Cyprus Hotel Co., Army Contractor,
+                        Limassol, Cyprus. There is a good carriage road from Kopia (on Railway) to
+                        Troodos. At Famagusta may be seen the fine old Latin Cathedral (now a mosque)
+                        begun in 1300 and finished in 1312, together with other ancient ruins and the
+                        Venetian fortifications, the finest in the world. Also the tower or palace, the
+                        scene of “Othello'' and of Ford's “Lover's Melancholy.'' The climate of Cyprus
+                        in the winter months is delightful and the Island will well repay a visit.</p>
+                    <p>Information as to tickets, trains, etc., may be obtained of Messrs. Thomas Cook
+                        &amp; Son, Egypt, or from the General Manager Railways, Famagusta. G. BERT DAY,
+                        General Manager. <measure type="indexNo">29248—31-12-907</measure></p>
+                </div>
+                <div type="advert" xml:id="deg-ad-esr01">
+                    <head>Egyptian State Railways.</head>
+                    <table rows="4" cols="9">
+                        <head>THROUGH PASSENGER SERVICES. (Daily).--OCTOBER TIME-TABLE.</head>
+                        <row>
+                            <cell cols="2"/>
+                            <cell>a.m.</cell>
+                            <cell>a.m.</cell>
+                            <cell>noon</cell>
+                            <cell>p.m.</cell>
+                            <cell>p.m.</cell>
+                            <cell>p.m.</cell>
+                            <cell>p.m.</cell>
+                            <cell>p.m.</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Cairo...DEP.</cell>
+                            <cell>7.30</cell>
+                            <cell>9.30</cell>
+                            <cell>†12.00‡ p.m.</cell>
+                            <cell>12.15</cell>
+                            <cell>4. 0</cell>
+                            <cell>4.50</cell>
+                            <cell>†6.35</cell>
+                            <cell>§11.30</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Tantah...ARR.</cell>
+                            <cell>8.51</cell>
+                            <cell>10.53</cell>
+                            <cell>1.20</cell>
+                            <cell>2.30</cell>
+                            <cell>5.28</cell>
+                            <cell>6. 3</cell>
+                            <cell>8.1</cell>
+                            <cell>2.4</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Alexandria...ARR.</cell>
+                            <cell>11.00</cell>
+                            <cell>12.55 p.m.</cell>
+                            <cell>3 5</cell>
+                            <cell>5.50</cell>
+                            <cell>7.35</cell>
+                            <cell>7.50</cell>
+                            <cell>10. 0</cell>
+                            <cell>6. 0</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Alexandria...DEP.</cell>
+                            <cell>7.0</cell>
+                            <cell>9. 0</cell>
+                            <cell>†12.00‡ p.m.</cell>
+                            <cell>2.10</cell>
+                            <cell>3.40</cell>
+                            <cell>4.25</cell>
+                            <cell>†6. 0</cell>
+                            <cell>§11.30</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Tantah...ARR.</cell>
+                            <cell>8.59</cell>
+                            <cell>10.53</cell>
+                            <cell>1.40</cell>
+                            <cell>5.24</cell>
+                            <cell>5.40</cell>
+                            <cell>6. 6</cell>
+                            <cell>7.51</cell>
+                            <cell>3.18</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Cairo...ARR.</cell>
+                            <cell>10.25</cell>
+                            <cell>12.20 p.m.</cell>
+                            <cell>3.5</cell>
+                            <cell>--</cell>
+                            <cell>7.10</cell>
+                            <cell>7.25</cell>
+                            <cell>9.20</cell>
+                            <cell>6.0</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Cairo to...DEP.</cell>
+                            <cell>7.0 a.m.</cell>
+                            <cell>†11.0‡ a.m.</cell>
+                            <cell>†6.15 p.m.</cell>
+                            <cell cols="2">Port Said to ... DEP.</cell>
+                            <cell>8.10 a.m.</cell>
+                            <cell>†12.30 p.m.</cell>
+                            <cell>†6.45‡ p.m.</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Port Said...ARR.</cell>
+                            <cell>12. 5 p.m.</cell>
+                            <cell>3.30 p.m.</cell>
+                            <cell>11.10</cell>
+                            <cell cols="2">Cairo ... ARR.</cell>
+                            <cell>1.25 p.m.</cell>
+                            <cell>5. 0 p.m.</cell>
+                            <cell>11.25</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Cairo to...DEP.</cell>
+                            <cell>†11.0‡ a.m.</cell>
+                            <cell>†6.15 p.m.</cell>
+                            <cell rows="2">For Suez change at Ismailia</cell>
+                            <cell cols="2">Suez (Rue Colmar) to ... DEP.</cell>
+                            <cell>8 0 a.m.</cell>
+                            <cell>†6.0‡ p.m.</cell>
+                            <cell rows="2">For Cairo change at Ismailia</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Suez (Rue Colmar)...ARR.</cell>
+                            <cell>4. 0 p.m.</cell>
+                            <cell>11. 0 p.m.</cell>
+                            <cell cols="2">Cairo ... ARR.</cell>
+                            <cell>1.25 p.m.</cell>
+                            <cell>11.25</cell>
+                        </row>
+                        <row>
+                            <cell>Cairo...DEP.</cell>
+                            <cell>7.45 a.m.</cell>
+                            <cell>11.30 a.m.</cell>
+                            <cell>2.40 p.m.</cell>
+                            <cell>5.25 p.m.</cell>
+                            <cell>Zagazig DEP.</cell>
+                            <cell>6. 0 a.m.</cell>
+                            <cell>8.45 a.m.</cell>
+                            <cell>11 45 a.m.</cell>
+                            <cell>6.23 p.m.</cell>
+                        </row>
+                        <row>
+                            <cell>Zagazig (Via Belbeis)...ARR.</cell>
+                            <cell>9.44</cell>
+                            <cell>1.40 p.m.</cell>
+                            <cell>4.45</cell>
+                            <cell>7.27</cell>
+                            <cell>Cairo (Via Belbeis)...ARR.</cell>
+                            <cell>8. 0</cell>
+                            <cell>10.45</cell>
+                            <cell>1.50 p.m.</cell>
+                            <cell>8.20</cell>
+                        </row>
+                        <row>
+                            <cell cols="3">Cairo...DEP.</cell>
+                            <cell>8.30 a.m.</cell>
+                            <cell>*8. 0 p.m.</cell>
+                            <cell cols="3">Luxor ... DEP.</cell>
+                            <cell>6.10 a.m.</cell>
+                            <cell>*5.30 p.m.</cell>
+                        </row>
+                        <row>
+                            <cell cols="3">Wasta...ARR.</cell>
+                            <cell>9.55</cell>
+                            <cell>9.30</cell>
+                            <cell cols="3">Wasta ... ARR.</cell>
+                            <cell>7.11 p.m.</cell>
+                            <cell>5.57 a.m.</cell>
+                        </row>
+                        <row>
+                            <cell cols="3">Luxor...ARR.</cell>
+                            <cell>11.35 p.m.</cell>
+                            <cell>10. 0 a.m.</cell>
+                            <cell cols="3">Cairo ... ARR.</cell>
+                            <cell>8.45</cell>
+                            <cell>7.35</cell>
+                        </row>
+                    </table>
+                    <p>†Dining Car. §Sleeping Car. ‡First and Second Class only.</p>
+                    <p>* Dining and Sleeping Cars are attached to these trains on the following days: --
+                        From Cairo, every Monday, Wednesday and Saturday. From Luxor, every Tuesday,
+                        Thursday and Sunday.</p>
+                    <p><measure type="indexNo">27455</measure></p>
+                    <p>J. H. l'E. JOHNSTONE, General Manager.</p>
+                </div>
+                    <pb n="2"/>
+                    <div type="page" n="2">
+                        <head>THE EGYPTIAN GAZETTE</head>
+                        <head type="sub">No. 7306] ALEXANDRIA, Thursday, October 3, 1905. [SIX PAGES P.T.
+                        </head>
+            </div>  </div>
+            <div type="advert" xml:id="deg-ad-ric01">
+                <head>Royal Insurance Coy</head>
+                <p>FIRE AND LIFE.</p>
+                <p>Largest Fire Office in the World.</p>
+                <p>HASELDEN &amp; CO., Agents, Alexandria.</p>
+                <p>R. VITERBO &amp; CO., Agents, Cairo.</p>
+                <p>PHOENIX ASSURANCE COMPANY, LIMITED.</p>
+                <p>(ESTABLISHED 1782);</p>
+                <p>HASELDEN &amp; CO., Agents, Alexandria.</p>
+                <p><measure type="indexNo">31-3-906</measure> FRED. OTT &amp; CO., Sub-Agents, Cairo.</p>
+            </div>
+            <div type="advert" xml:id="deg-ad-boa01">
+                <head>BON-ACCORD Centrifugal Pumps</head>
+                <p>DRIVEN BY steam, electricity, gas, oil or belt,</p>
+                <p>FOR IRRIGATION, DRAINAGE, DOCKS, etc.</p>
+                <p>HIGH SPEED ENGINES FOR ELECTRIC LIGHTING.</p>
+                <p>FAN ENGINES FOR FORCED DRAUGHT &amp; VENTILATION.</p>
+                <p>High Lift and Rotary Pumps.</p>
+                <p>Apply in Egypt, Cairo and Alexandria,</p>
+                <p>A. ABOAF &amp; C°. (where a stock is kept.)</p>
+                <p>DRYSDALE &amp; Co.</p>
+                <p>Manufacturers,</p>
+                <p>Bon - Accord Engine Works, Glasgow.</p>
+                <table>
+                    <row>
+                        <cell>Telegrams:"BON-ACCORD” Glasgow.</cell>
+                        <cell>CODES: A.B.C., LIEBER’S, &amp; ENGINEERING TELEGRAPH. Write for
+                            catalogue.</cell>
+                        <cell>Telephone: 2505 NATIONAL y 279 corporation.</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="advert" xml:id="deg-ad-abp01">
+                <head>THE ARTESIAN BORING AND PROSPECTING COMPANY.</head>
+                <p>(SOCIÉTÉ ANONYME)</p>
+                <p>CAIRO, 28, SHARIA-EL-MANAKH,<lb/> (OPPOSITE IMPERIAL OTTOMAN BANK).</p>
+                <p>I. —Installation of complete Water supplies for drinking, agricultural, and<lb/>
+                    industrial purposes by means of artesian wells.</p>
+                <p>II. - Deep borings for prospecting purposes in all conditions of soil by means of
+                    the<lb/> “Express Boring System."</p>
+                <p><measure type="indexNo">24,437-12-1-905</measure></p>
+            </div>
+            <div type="advert"  xml:id="deg-ad-adr01">
+                <head>“AU DE ROUGE."</head>
+                <p>GENERAL DRAPERY ETABLISHMENT.</p>
+                <p>(Central Tramway Station), CAIRO.</p>
+                <p>P. PLUNKETT, PROPRIETOR.</p>
+                <p>DIRECT IMPORTER OF BRITISH AND IRISH TEXTILE MANUFACTURES.</p>
+                <p>LADIES’ SUMMER STOCKINGS.</p>
+                <p> IN SPUN SILK at P.T. 20 per pair.</p>
+                <p>LISLE THREAD, in plain and lace open-work, in black, white, tan and usual shades,
+                    to suit boots worn in Egypt, from P.T. 5 per pair.</p>
+                <p>Every pair is marked “Au De Rouge" which is a guarantee that the Color is
+                    absolutely fast and stainless.</p>
+                <p><measure type="indexNo">24916-15-11-905</measure></p>
+            </div>
+            <div type="advert" xml:id="deg-ad-hbh01">
+                <p>UNSURPASSED FOR QUALITY AND CONDITION.</p>
+                <p>HALLS “BOAR’S HEAD” BRAND.</p>
+                <p>Guinness’s Foreign Extra Stout</p>
+                <p>Bass’s India Pale Ale</p>
+                <p>T.B. HALL &amp; Co. TRADE MARK. THE "BOAR'S HEAD" BRAND of ALE &amp; STOUT. LIGHT
+                    SPARKLING PALE ALE.</p>
+                <p>Sole Exporters: T. B. HALL &amp; Co., Ltd. 79-83 Norfolk St., Liverpool</p>
+                <p>Sole Importer for Egypt and the Sudan:</p>
+                <p>G. MARCUS &amp; Co.</p>
+                <p>ALEXANDRIA, CAIRO and TANTA.</p>
+            </div>
+            <div type="advert" xml:id="deg-ad-fpc01">
+                <p>MILITARY TAILORS.</p>
+                <p>EGYPTIAN ARMY OUTFITS A SPECIALITY.</p>
+                <p>RIDING BREECHES.</p>
+                <p>F. Phillips &amp; Co. </p>
+                <p>LADIES’ TAILORS.</p>
+                <p>(high class work only).</p>
+                <p>CAIRO &amp; ALEXANDRIA.</p>
+                <p><measure type="indexNo">28057-31-5-07</measure></p>
+            </div>
+            <div type="advert" xml:id="deg-ad-jma01">
+                <p>Note Paper with Stamped (Raised) Address, &amp; c.</p>
+                <p>J. Margosches</p>
+                <p>Brass Plate Engraver<lb/> General Sign Writer<lb/> and Letter Manufacturer</p>
+                <p>Bulac Road Cairo</p>
+            </div>
+            <div type="advert" xml:id="deg-ad-nkh03">
+                <head>NEW KHEDIVIAL HOTEL CAIRO.</head>
+                <p>Family Hotel. Built in 1904. Between Shepheard's Hotel and the Railway Station.
+                    Electric Light. Lift.</p>
+                <p>Sanitary arrangements up to-date. Open all the year round. Special terms for
+                    Government officials and Army of Occupation</p>
+                <p>NEW MANAGEMENT. <measure type="indexNo">29242-26-11-90</measure></p>
+            </div>
+            <cb/>
+            <div type="section" feature="weather">
+                <head>DAILY WEATHER REPORT</head>
+                <p>OBSERVATIONS BY THE SURVEY DEPARTMENT.</p>
+                <div type="subsection">
+                    <table rend="frame" xml:id="deg-ta-dawr01">
+                        <head>ALEXANDRIA</head>
+                        <row>
+                            <cell cols="2">Direction of wind</cell>
+                            <cell>N.N.E.</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">Force of wind</cell>
+                            <cell>Light</cell>
+                        </row>
+                        <row>
+                            <cell cols="2">State of Sea</cell>
+                            <cell>Smooth</cell>
+                        </row>
+                        <row>
+                            <cell rows="4">During 24 hours ending 8 a.m.</cell>
+                            <cell>Max. Temp in the shade</cell>
+                            <cell><measure unit="dC">29.5</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Min. Temp in the shade</cell>
+                            <cell><measure unit="dC">21.0</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Humidity</cell>
+                            <cell><measure type="percentage">76.0</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Rainfall</cell>
+                            <cell><measure unit="mm">—</measure></cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="subsection">
+                    <head>REMARKS.</head>
+                    <p>Yesterday opened with a light breeze from the N.N.E. but towards noon the
+                        wind suddenly changed to the N.N.W. The day was rather warm, but becme
+                        beautifully cool in the evening. Barometer steady.</p>
+                </div>
+                <div type="subsection">
+                    <table cols="3" xml:id="deg-ta-dawr02">
+                        <head>OTHER STATIONS.</head>
+                        <head type="sub">For the 24 hours ending 3 a.m. Yesterday</head>
+                        <row role="label">
+                            <cell>Stations.</cell>
+                            <cell>Max. temp. in the shade.</cell>
+                            <cell>Min temp. in the shade.</cell>
+                        </row>
+                        <row>
+                            <cell>Port Said</cell>
+                            <cell><measure unit="dC">30</measure></cell>
+                            <cell><measure unit="dC">24</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Suez</cell>
+                            <cell><measure unit="dC">39</measure></cell>
+                            <cell><measure unit="dC">24</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Cairo Halouan</cell>
+                            <cell><measure unit="dC">39</measure></cell>
+                            <cell><measure unit="dC">22</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Cairo Ghizeh</cell>
+                            <cell><measure unit="dC">40</measure></cell>
+                            <cell><measure unit="dC">21</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Assiout</cell>
+                            <cell><measure unit="dC">41</measure></cell>
+                            <cell><measure unit="dC">21</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Assouan</cell>
+                            <cell><measure unit="dC">44</measure></cell>
+                            <cell><measure unit="dC">24</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Wady Halfa</cell>
+                            <cell><measure unit="dC">41</measure></cell>
+                            <cell><measure unit="dC">24</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Merowe</cell>
+                            <cell><measure unit="dC">41</measure></cell>
+                            <cell><measure unit="dC">28</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Berber</cell>
+                            <cell><measure unit="dC">42</measure></cell>
+                            <cell><measure unit="dC">26</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Suakin</cell>
+                            <cell><measure unit="dC">43</measure></cell>
+                            <cell><measure unit="dC">30</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Khartoum</cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Wad Medani</cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                        </row>
+                        <row>
+                            <cell>Duam</cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                            <cell><measure unit="dC">—</measure></cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="subsection">
+                    <table rows="6" cols="5" xml:id="deg-ta-dawr03">
+                        <head>FOREIGN STATIONS.</head>
+                        <row role="label">
+                            <cell>Stations.</cell>
+                            <cell>Barom.</cell>
+                            <cell>Wind.</cell>
+                            <cell>Temp.</cell>
+                            <cell>State of Sea</cell>
+                        </row>
+                        <row>
+                            <cell>Trieste</cell>
+                            <cell><measure>762.7</measure></cell>
+                            <cell>Calm</cell>
+                            <cell><measure unit="dC">27</measure></cell>
+                            <cell>Calm</cell>
+                        </row>
+                        <row>
+                            <cell>Malta</cell>
+                            <cell><measure>762.9</measure></cell>
+                            <cell>Almost calm</cell>
+                            <cell><measure unit="dC">28</measure></cell>
+                            <cell>Very slight</cell>
+                        </row>
+                        <row>
+                            <cell>Brindisi</cell>
+                            <cell><measure>760.6</measure></cell>
+                            <cell>Light</cell>
+                            <cell><measure unit="dC">28</measure></cell>
+                            <cell>Calm</cell>
+                        </row>
+                        <row>
+                            <cell>Athens</cell>
+                            <cell><measure>759.1</measure></cell>
+                            <cell>Fresh</cell>
+                            <cell><measure unit="dC">28</measure></cell>
+                            <cell>Rough</cell>
+                        </row>
+                        <row>
+                            <cell>Lamassol</cell>
+                            <cell><measure>755.4</measure></cell>
+                            <cell>Almost calm</cell>
+                            <cell><measure unit="dC">33</measure></cell>
+                            <cell>Very slight</cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="subsection">
+                    <table rend="frame" xml:id="deg-ta-dawr04">
+                        <row role="label">
+                            <cell cols="3" rows="2">PHASES OF THE MOON</cell>
+                            <cell cols="2">THE SUN</cell>
+                        </row>
+                        <row>
+                            <cell>Rises a.m.</cell>
+                            <cell>Sets p.m.</cell>
+                        </row>
+                        <row>
+                            <cell>July 2</cell>
+                            <cell>New Moon</cell>
+                            <cell>7.50 p.m.</cell>
+                            <cell>4.58</cell>
+                            <cell>7. 0</cell>
+                        </row>
+                        <row>
+                            <cell>July 9</cell>
+                            <cell>First Quarter</cell>
+                            <cell>7.46 p.m.</cell>
+                            <cell>5. 1</cell>
+                            <cell>6.59</cell>
+                        </row>
+                        <row>
+                            <cell>July 16</cell>
+                            <cell>Full Moon</cell>
+                            <cell>5.32 p.m.</cell>
+                            <cell>5. 4</cell>
+                            <cell>6.58</cell>
+                        </row>
+                        <row>
+                            <cell>July 24</cell>
+                            <cell>Last Quarter</cell>
+                            <cell>3. 9 p.m.</cell>
+                            <cell>5. 8</cell>
+                            <cell>6.53</cell>
+                        </row>
+                    </table>
+                </div> 
+                <div type="item">
+                    <p>The “Egyptian Gazette” is printed on paper manufactured and supplied by the
+                        London paper Mills Co. Limited (Sales Office: 27, Cannon Street, E.C.)</p>
+                </div> 
+                <!-- I need help with the small sections in class--> 
+                <div type="item">
+                    <p>The “Egyptian Gazette” is printed on paper manufactured and supplied by the
+                        London paper Mills Co. Limited (Sales Office: 27, Cannon Street, E.C.)</p>
+                </div>
+                <div type="item">
+                    <!-- section correct--> 
+                    <head>Friendship with Turkey</head>
+                    <p>Those British politians who promiso great thing of the Pesse Congress at The Hague han soarely have for bare one of the advantages which this apparently futile meeting in mid to have brought to their country. The advantage a direct consequence of the Congress in the greater friendship with Turkey. Those who think to understand the Balkan quotion by reading blue books will no doubt deplore any improvement of diplomati relations, and the improvement of British commerce with Turkey is rely likely to sugar their pill. But it is worth while noting that several French author ities on the Macedonian question have stated that the English enthusiasta spuld never have their relorms carried out unlew the British Ambasador were able to go before the Sultan Armed with strong friendship sodan challenged prestige Unfortunately it go be wid that British prestige at Constantinople
+                        been unchallenged of late
+                        An indefatigable and subtle diplomatint, Baron Marshall von Bieberstein has contrived that Germany should receive many sogar ploma in the way of orders for ne, milway Concions, and what not, and British t ers have itched t ing their profita wationary or declining. However, if we are to believe writer in the Sitele, it is Great Britain now that led the danon. Before leaving Conta tinople for The Hague Baron Marshall von Bieberstein omitted to me to it that a great hurt to Turkish pride her inclusion among the wendary Powers convoked to the con gron removed. This coming altera deception by Germany-withdrawing her op port in the Tabah affair when things became serions-officed to change the Sultan's atti tnde Admiral Sir Charles Drury and the officer of the Mediterranean Pleet were re cently received by the Baltan in a way which clearly signalind the change. All precedenta in the matter of etiquette were met ide, and the party were received with the ceremonial beretofore reserved to Prince of the Blood And, in spite of the activity of the German Charge d'Affaires, much better time for British merebants and financiers is promised
+                    </p>
+                   
+              </div>
+              <div type="item">              
+             <head>THE SUEX ROUTE</head>
+                  <p>"At time when publie attention in the L'nited States has been recalled to the transfer of the Atlantie Pleet to the Pacific by Mr. Hearst once more raising the ery of the danger from Japan,' very interesting suggestion has been made by an American admiral, whose worde will carry weight, wys the "Evening Standard." "Rear Admin Clark is the cap rain of the famous battleship Oregon, which
+                  </p>
+              </div> 
+              <!-- I need help with the page numbers here intert page three here-->
+            <div type='section'>
+           <head> Local and General</head>
+            </div>
+                <div type="item">
+                
+                </div>
+                     <head> </head>
+                <p> Da te of Italima trooping from Mun d through the Boral the hay tree yesterday start the " na"
+                    w
+                    C
+                    The Egyptian origin of Oriental See Jelended in an interesting article in the etter number of the Burlington Mannine"
+                    DAT Huti The
+                    arter The Italian
+                    Chine wi th mida Teway in amer i a the time
+                    que The answer ill lenght for the Italian The compte render
+                    lated the beshethe well ben of de Chapter
+                    a lleypt the decided to fin appaat Me Hey Hefer to the man Mittle with Money Wilkin will
+                    the in the any' Featre
+                    Afire whick, but they arrival of the Hagen have led to wri dam kestabet Soda Wonday
+                    at there and we Here any in the hara Naber Pube i Thea
+                    of damagedone al wo e stimated up to the time of writing a but it is thaght to be all
+                    a
+                    The Oliver boeght in the
+                    er harbor shie mariing alongside the quay is that what we
+                    in her holde wacht ledige The deposit l les
+                    which is payable the Agents of Mr. Grand ta, Re Gordon Puhe off Ree Aero The
+                    perintendent of Me Reinsalu w the arrived fringland by yetishmalat
+                    Te into the may be wided by the wintry of London inter life at how the Year
+                    have the b athority Buying that plat aking sodbe part in the warfare between partn er in
+                    atate the platform and tershe m while te that the loc al will be </p>
+                   </p>
+                </div>
+            <head>THE PRINCES AND THE DAIRA. LETTER PROM Lord CROMER.</head>
+            <p>Our contemporary “Al Lewa” publishes an important letter from Lord Cromer to
+                H.H. Prince Ibrahim Pasha Halim concerning the action to be brought by the
+                Princes, sons of the late Khedive Ismail, against the Govern- ment claiming
+                the restoration of the remaining surplus of the Daira Sanich after the
+                satis- faction of all the creditors of the said admi- nistration, as being
+                heirs of the former owner the late Khedive. One of the claimants, Prince
+                Ibrahim Pasha Halim according to our con- temporary, wrote to ask Lord
+                Cromer’s opinion on his claim. Lord Cromer's reply left no doubt as to his
+                opinion ; he expressed his agree- ment with the view of the Coutentieux and
+                after drawing the attention of Prince Ibrahim to the opinion he had given in
+                1878 when serving on the Commission of tho Egyptian Debt, vix., that the
+                Daira properties had been illegally acquired, that their acquisition was
+                prejudicial to the interests of the country and that the Khedive should
+                restore the properties illegally obtained, he added : — “ I still maintain
+                my opinion and regret to inform your Highness that not only am I unable to
+                support your claim but that should the Egyptian Government be disposed to
+                admit it, I would be obliged to protest in the most effective fashion in the
+                interests of the Egyptian people and taxpayers.”</p>
+            <p>This excellent and uncompromising answer appears to have greatly annoyed our
+                confrere, Mustapha Pasha Kamel, who calls upon the Egyptian public to show
+                their resentment at the affront offered to the sons of the late Khedive
+                Ismail and to support the demand of the princes for the restoration of their
+                rights. We imagine that the Egyptian public will prefer Lord Cromer's advice
+                to that of the "Nationalist leader” and Turkish pasha.</p>
+                </div>
+            <div type="item">
+                <!-- section correct--> 
+                <head>CHEMIN DE FER DE L’ORIENT.</head>
+                <p>We are informed that the number winning the first prize in the Chamin de Fer
+                    de l’Orient lottery is 41698, provided there is no error due to faulty
+                    transmission by telegraph.</p>
+            </div>
+            <div type="item">
+                <head>ASILE KAISER WILHELM.</head>
+            
+                <p>A concert was given on Tuesday afternoon at the Asile Kaiser Wilheim under
+                    the patronage of the vice-consul of Germany by Mme Meyer and her pupils and
+                    was very largely attended. Mme Tonelli, sister of the well-known Alexandria
+                    musician Professor Lombardo, also assisted, playing a duet with Mme Meyor
+                    which was very much appreciated and in which both ladies showed great
+                    musical talent. MM. Astorre and Michel Mabardi sang together in an excellent
+                    manner, and M- Amodio greatly pleased the audience by his rendering of a
+                    selection from the opera Aida which he played on the violin. M. Egon Mabardi
+                    recited excel- lently. We must also mention Miles Lea Ponta, Eveline
+                    Tonelli, Mario and Olga Philippides, all of whom performed their part of the
+                    pro- gramme most faithfully and showed a wonderful technical knowledge of
+                    music, although they are still quite children.</p>
+            </div>
+            <div type="item">
+                <head>THE FAYOUM MURDER.</head>
+                <p>The "Bashkholi” ol Messrs. Green’s ezbeh with his brother, son, and
+                    daughter-in-law, the late M. Mataloti’s cook, and his ghaffir have been
+                    arrested with ten other arabs, who are believed to have aided and abetted
+                    the actual murderers, if they were not guilty themselves. The inquiry
+                    continues.</p>
+            </div>
+            <div type="section" feature="sport">
+                <head>SPORT AND PLAY. </head>
+            
+                <div type="item">
+                    <head>ALEXANDRIA SWIMMING CLUB.</head>
+                    <p>In view of the 3rd annual aquatic sports, members will please meet the
+                        handicapper at the Marina to morrow. Boats will leave the landing stage
+                        at 3 and 4 p.m. for the Khedivial Floating Dock.</p>
+                </div>
+            </div>
+            <div type="item">
+                <!-- chruch correct-->
+                <head>ST. ANDREWS CHURCH, ALEXANDRIA.</head>
+                <p>The Sacrament of the Lord’s Supper will be Celebrated in this Church on
+                    Sunday next at 10 30 am. Visitors and friends are cordially invited.</p>
+            </div>
+            <cb/>
+            <div type="item">
+                <!-- need to figure out how to make column... is the the cb thing?--> 
+                <!-- section correct--> 
+                <head>THE SUCRERIES SITUATION- DEATH OF M. DE LA BOUGLISE</head>
+                <p>Our Cairo Correspondent telephones that M. de la Bouglise, while leaving a
+                    confec- tioner’s shop in the Sharia el Manskh in company with M. Laroux at
+                    6.30 p.m. yester- day, suddenly staggered and fell. Medical aid was
+                    unavailing, death, which is stated to have been caused by heart disease
+                    having been instantaneous. The body of M. de la Bonglise was removed to the
+                    French hospital from which the funeral will start at 4 p.m.</p>
+                <p>The sad news caused considerable excite ment on tho Alexandria bourse this
+                    morning, the shares of the Societe des Sucreries falling to 45 from 50
+                    frs.</p>
+                <p>Sir William Wilcocks has been appointed by Judge Tuck as the third
+                    agricultural expert to replace Nourisson Bey. The Societe des Sucreries is
+                    to be congratulated on its choice since it would be difficult to find in
+                    Egypt one more suitable in every way to fill this difficult and important
+                    position.</p>
+            </div>
+            <div type="item">
+                <byline>(By Telegraph).</byline><dateline>Cairo, Friday 11.4 p.m.</dateline>
+                <p>M. de la Bouglise, who has been suffer- ing from
+                    arteriscelerosis for a long time, died suddenly in Sharia Suliman Pasha from
+                    an attack of angina pectoris. His death was notified by the French consul
+                    yesterday evening.</p>
+            </div>
+            <div type="item">
+            
+                <head>THE PRINCES AND THE DAIRA. LETTER PROM Lord CROMER.</head>
+                <p>Our contemporary “Al Lewa” publishes an important letter from Lord Cromer to
+                    H.H. Prince Ibrahim Pasha Halim concerning the action to be brought by the
+                    Princes, sons of the late Khedive Ismail, against the Govern- ment claiming
+                    the restoration of the remaining surplus of the Daira Sanich after the
+                    satis- faction of all the creditors of the said admi- nistration, as being
+                    heirs of the former owner the late Khedive. One of the claimants, Prince
+                    Ibrahim Pasha Halim according to our con- temporary, wrote to ask Lord
+                    Cromer’s opinion on his claim. Lord Cromer's reply left no doubt as to his
+                    opinion ; he expressed his agree- ment with the view of the Coutentieux and
+                    after drawing the attention of Prince Ibrahim to the opinion he had given in
+                    1878 when serving on the Commission of tho Egyptian Debt, vix., that the
+                    Daira properties had been illegally acquired, that their acquisition was
+                    prejudicial to the interests of the country and that the Khedive should
+                    restore the properties illegally obtained, he added : — “ I still maintain
+                    my opinion and regret to inform your Highness that not only am I unable to
+                    support your claim but that should the Egyptian Government be disposed to
+                    admit it, I would be obliged to protest in the most effective fashion in the
+                    interests of the Egyptian people and taxpayers.”</p>
+                <p>This excellent and uncompromising answer appears to have greatly annoyed our
+                    confrere, Mustapha Pasha Kamel, who calls upon the Egyptian public to show
+                    their resentment at the affront offered to the sons of the late Khedive
+                    Ismail and to support the demand of the princes for the restoration of their
+                    rights. We imagine that the Egyptian public will prefer Lord Cromer's advice
+                    to that of the "Nationalist leader” and Turkish pasha.</p>
+            </div>
+            <div type="item">
+                
+                <head>CHEMIN DE FER DE L’ORIENT.</head>
+                <p>We are informed that the number winning the first prize in the Chamin de Fer
+                    de l’Orient lottery is 41698, provided there is no error due to faulty
+                    transmission by telegraph.</p>
+            </div>
+            <div type="item">
+                <head>ASILE KAISER WILHELM.</head> 
+                <p>A concert was given on Tuesday afternoon at the Asile Kaiser Wilheim under
+                    the patronage of the vice-consul of Germany by Mme Meyer and her pupils and
+                    was very largely attended. Mme Tonelli, sister of the well-known Alexandria
+                    musician Professor Lombardo, also assisted, playing a duet with Mme Meyor
+                    which was very much appreciated and in which both ladies showed great
+                    musical talent. MM. Astorre and Michel Mabardi sang together in an excellent
+                    manner, and M- Amodio greatly pleased the audience by his rendering of a
+                    selection from the opera Aida which he played on the violin. M. Egon Mabardi
+                    recited excel- lently. We must also mention Miles Lea Ponta, Eveline
+                    Tonelli, Mario and Olga Philippides, all of whom performed their part of the
+                    pro- gramme most faithfully and showed a wonderful technical knowledge of
+                    music, although they are still quite children.</p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
